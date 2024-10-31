@@ -9,7 +9,7 @@ Analisis ini mencakup:
 - 🔍 Modelling
 - 📊 Evaluasi Model
 
-Proyek ini diharapkan dapat mendukung diagnosis lebih awal dengan deteksi tumor payudara melalui analisis gambar medis.
+Proyek ini diharapkan dapat mendukung diagnosis lebih awal dengan deteksi tumor payudara melalui analisis gambar medis. Model ini tersedia melalui demo deployment di Hugging Face, memungkinkan pengguna mengunggah gambar mammogram dan menerima prediksi risiko, yang diharapkan dapat mendukung diagnosis lebih awal dan akurasi deteksi tumor payudara melalui analisis gambar medis.
 
 ## Objectives 🎯
 - Mengembangkan model Machine Learning yang mampu mengidentifikasi gambar mammogram yang menunjukkan indikasi tumor.
@@ -17,6 +17,8 @@ Proyek ini diharapkan dapat mendukung diagnosis lebih awal dengan deteksi tumor 
 ## Dependencies ⚙️
 - ![Python](https://img.shields.io/badge/-Python-blue?logo=python&logoColor=white)
 - ![Jupyter Notebook](https://img.shields.io/badge/-Jupyter%20Notebook-orange?logo=jupyter&logoColor=white)
+- ![TensorFlow](https://img.shields.io/badge/-TensorFlow-orange?logo=tensorflow&logoColor=white)
+
 
 ## Libraries 📚
 - **Data Manipulasi dan Visualisasi:**
@@ -29,7 +31,10 @@ Proyek ini diharapkan dapat mendukung diagnosis lebih awal dengan deteksi tumor 
   - `tensorflow` (dengan `ImageDataGenerator`, `Sequential`, `Conv2D`, `MaxPooling2D`, `Flatten`, `Dense`, `Dropout`, `GlobalAveragePooling2D`)
   - `MobileNetV2` dari `tensorflow.keras.applications` untuk transfer learning
   - `sklearn.metrics` (classification report, confusion matrix)
-  - OpenCV (untuk manipulasi gambar)
+
+## Related Project Links 🔗
+ - [Dataset](https://www.kaggle.com/datasets/hayder17/breast-cancer-detection)
+ - [Demo Deployment on Hugging Face](https://huggingface.co/spaces/khalilzufar/Breast-Tumor-Prediction)
 
 ## How to Use 🛠️
 1. **Clone repositori ini:**
